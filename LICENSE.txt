@@ -61,6 +61,9 @@ Boosty даёт доступ только к программе AD.Engram: вс�
     вас уже есть Mod Organizer 2 или Vortex, лаунчер ставит в вашу сборку и своей копии не заводит;
   • whisper.cpp (MIT) — программа распознавания речи, с GitHub (ggml-org/whisper.cpp); модели
     распознавания Whisper (MIT) — с Hugging Face (ggerganov/whisper.cpp);
+  • vgmstream (ISC) — декодер звука игры, с выпуска авторов на GitHub (vgmstream/vgmstream). Им лаунчер
+    читает озвучку вашей копии Cyberpunk 2077 и собирает из неё голоса персонажей для OmniTTS у вас на
+    компьютере; озвучка игры и голоса из неё никуда не выкладываются и принадлежат CD PROJEKT RED;
   • Ollama (MIT) — с GitHub, если вы выбрали нейросеть на своём компьютере; модели нейросети Ollama
     скачивает сама из своего каталога, у каждой модели своя лицензия.
 
@@ -147,6 +150,10 @@ available, and the launcher's author charges nothing for it.
     copy of its own;
   • whisper.cpp (MIT) — the speech recognition program, from GitHub (ggml-org/whisper.cpp); the
     Whisper recognition models (MIT) — from Hugging Face (ggerganov/whisper.cpp);
+  • vgmstream (ISC) — the game audio decoder, from the authors' GitHub release (vgmstream/vgmstream). The
+    launcher uses it to read the voice-over of your own copy of Cyberpunk 2077 and build character voices
+    for OmniTTS on your machine; the game's voice-over and the voices built from it are never uploaded
+    anywhere and belong to CD PROJEKT RED;
   • Ollama (MIT) — from GitHub, if you chose to run the model on your own PC; Ollama downloads the
     AI models itself from its own library, and each model has its own license.
 
