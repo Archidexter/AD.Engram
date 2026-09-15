@@ -1,0 +1,108 @@
+AD.Engram — Лицензия / License
+==============================
+
+Copyright © 2026 Archidexter. Все права защищены. / All rights reserved.
+
+Автор и единственный правообладатель: Archidexter.
+AD.Engram — лаунчер для Cyberpunk 2077: ставит и настраивает мод ИИ-NPC NightCityNet, его
+зависимости, облачную и локальную озвучку и, по желанию, нейросеть на вашем собственном компьютере.
+Разработка начата 14 сентября 2026 года на основе AD.Lindel того же автора.
+Официальный источник: https://github.com/Archidexter/AD.Engram
+Любые копии под другим авторством или с другой лицензией не авторизованы.
+
+Author and sole copyright holder: Archidexter.
+AD.Engram is a launcher for Cyberpunk 2077: it installs and configures the NightCityNet AI NPC mod,
+its dependencies, cloud and local voice engines and, if you want it, a neural model running on your
+own PC.
+Development started on 14 September 2026, based on AD.Lindel by the same author.
+Official source: https://github.com/Archidexter/AD.Engram
+Any copy under different authorship or a different license is not authorized.
+
+
+РУССКИЙ
+
+Эта лицензия распространяется на программу AD.Engram (лаунчер) и на то, что написано для неё:
+правила установки, патчи, локализацию, пресеты, интерфейс и тексты. Программа распространяется
+автором на Boosty — по подписке или при покупке поста.
+
+Разрешается:
+  • использовать программу тому, кто получил её от автора;
+  • держать её личные копии для себя, вместе с этим файлом лицензии.
+
+Запрещается без письменного разрешения автора:
+  • передавать программу другим людям, выкладывать её в открытый доступ или
+    распространять любым иным способом;
+  • продавать программу или брать плату за доступ к ней;
+  • выдавать её за свою работу;
+  • изменять её и распространять изменённые версии;
+  • использовать название и оформление «AD.Engram» для других продуктов.
+
+Программа не перевыкладывает чужое. Всё стороннее она скачивает на ваш компьютер в момент
+установки — с исходных источников их авторов. Эти материалы не входят в программу и остаются под
+собственными лицензиями своих авторов; настоящая лицензия на них не распространяется. Это:
+  • NightCityNet (swagtea) — мод ИИ-NPC под GPL-3.0-or-later; в его архиве onnxruntime, LadybugDB,
+    OpenSSL, SQLite, Brotli и модель all-MiniLM-L6-v2 со своими уведомлениями. Мод распространяется
+    автором в Discord: архив вы скачиваете сами из его сообщения, лаунчер открывает это сообщение
+    и берёт скачанный файл;
+  • RED4ext, Cyber Engine Tweaks, redscript, Codeware, ArchiveXL, TweakXL и Boneware — расширения
+    игры, на которые опирается мод; Input Loader — по желанию;
+  • Pleasures of Night City, OSSO и адаптер NightCityNet для OSSO — только при включённом «18+»;
+    из OSSO берутся одни звуки, и хранятся они вне папки игры;
+  • Mod Organizer 2 — портативная копия для игры без менеджера модов; если у вас уже есть
+    Mod Organizer 2 или Vortex, лаунчер ставит в вашу сборку и своей копии не заводит;
+  • OmniTTS (jagerius/OmniTTS + модель k2-fsa/OmniVoice) — локальный сервер озвучки;
+  • whisper.cpp и модели распознавания речи — для голосового ввода;
+  • Ollama — если вы выбрали нейросеть на своём компьютере.
+Вместе с самой программой поставляются только две чужие вещи: 7-Zip (7zr.exe, LGPL) и загрузчик
+WebView2 (условия Microsoft для распространяемых компонентов).
+
+Ключи к сервисам ИИ и озвучки (провайдер модели, Inworld) — ваши. Программа хранит их только на
+вашем компьютере и не передаёт никуда, кроме выбранного вами сервиса. Расходы по этим ключам несёте
+вы. Ключ Nexus Mods, если вы его указали, хранится так же.
+
+Программа предоставляется «как есть», без каких-либо гарантий. Автор не несёт ответственности за
+любой ущерб, прямой или косвенный, связанный с её использованием.
+
+
+ENGLISH
+
+This license covers the AD.Engram program (the launcher) and what was written for it: its install
+rules, patches, localization, presets, interface and texts. The program is distributed by the
+author on Boosty — by subscription or by buying the post.
+
+You may:
+  • use the program if you received it from the author;
+  • keep personal copies of it for yourself, together with this license file.
+
+Without the author's written permission you may NOT:
+  • pass the program on to other people, publish it or distribute it in any other way;
+  • sell the program or charge for access to it;
+  • claim it as your own work;
+  • modify it or distribute modified versions;
+  • use the "AD.Engram" name or look for other products.
+
+The program does not re-host other people's work. Everything third-party is downloaded onto your
+machine at install time, from its authors' own sources. Those materials are not part of this
+program and remain under their own authors' licenses; this license does not apply to them. Namely:
+  • NightCityNet (swagtea) — the AI NPC mod, under GPL-3.0-or-later; its archive carries onnxruntime,
+    LadybugDB, OpenSSL, SQLite, Brotli and the all-MiniLM-L6-v2 model with their own notices. The
+    author distributes the mod on Discord: you download the archive yourself from the author's
+    message, the launcher opens that message and picks up the downloaded file;
+  • RED4ext, Cyber Engine Tweaks, redscript, Codeware, ArchiveXL, TweakXL and Boneware — the game
+    extensions the mod relies on; Input Loader — optional;
+  • Pleasures of Night City, OSSO and the NightCityNet adapter for OSSO — only with "18+" turned on;
+    only the sounds are taken from OSSO, and they are kept outside the game folder;
+  • Mod Organizer 2 — a portable copy for a game without a mod manager; if you already use
+    Mod Organizer 2 or Vortex, the launcher installs into your setup and brings no copy of its own;
+  • OmniTTS (jagerius/OmniTTS + the k2-fsa/OmniVoice model) — the local voice server;
+  • whisper.cpp and speech recognition models — for voice input;
+  • Ollama — if you chose to run the model on your own PC.
+Only two third-party things ship with the program itself: 7-Zip (7zr.exe, LGPL) and the WebView2
+loader (under Microsoft's terms for redistributable components).
+
+Your AI and voice service keys (the model provider, Inworld) are yours. The program keeps them on
+your machine only and sends them nowhere except the service you chose. Their cost is yours.
+A Nexus Mods key, if you entered one, is kept the same way.
+
+The program is provided "as is", without warranty of any kind. The author is not liable for any
+damage, direct or indirect, arising from its use.
