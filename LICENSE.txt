@@ -1,0 +1,200 @@
+AD.Engram — Лицензия / License
+==============================
+
+Copyright © 2026 Archidexter. Все права защищены. / All rights reserved.
+
+Автор и единственный правообладатель: Archidexter.
+AD.Engram — лаунчер для Cyberpunk 2077: ставит и настраивает мод ИИ-NPC NightCityNet, его
+зависимости, облачную и локальную озвучку и, по желанию, нейросеть на вашем собственном компьютере.
+Разработка начата 14 сентября 2026 года на основе AD.Lindel того же автора.
+Официальный источник: https://github.com/Archidexter/AD.Engram
+Любые копии под другим авторством или с другой лицензией не авторизованы.
+
+Author and sole copyright holder: Archidexter.
+AD.Engram is a launcher for Cyberpunk 2077: it installs and configures the NightCityNet AI NPC mod,
+its dependencies, cloud and local voice engines and, if you want it, a neural model running on your
+own PC.
+Development started on 14 September 2026, based on AD.Lindel by the same author.
+Official source: https://github.com/Archidexter/AD.Engram
+Any copy under different authorship or a different license is not authorized.
+
+
+РУССКИЙ
+
+1. Программа
+------------
+Эта лицензия распространяется на программу AD.Engram (лаунчер) и на то, что написано для неё:
+правила установки, интерфейс, пресеты и тексты. Правки к файлам NightCityNet идут на условиях
+лицензии самого мода — см. 2.5. Программа распространяется автором на Boosty — по подписке или
+при покупке поста.
+
+Разрешается:
+  • использовать программу тому, кто получил её от автора;
+  • держать её личные копии для себя, вместе с этим файлом лицензии.
+
+Запрещается без письменного разрешения автора:
+  • передавать программу другим людям, выкладывать её в открытый доступ или
+    распространять любым иным способом;
+  • продавать программу или брать плату за доступ к ней;
+  • выдавать её за свою работу;
+  • изменять её и распространять изменённые версии;
+  • использовать название и оформление «AD.Engram» для других продуктов.
+
+2. Чужие материалы
+------------------
+Лаунчер — это установщик. Моды, программы и модели других авторов не входят в программу: он
+скачивает их на ваш компьютер в момент установки. На них настоящая лицензия не распространяется —
+каждый остаётся под лицензией своего автора, и вы получаете его на её условиях. Подписка на
+Boosty даёт доступ только к программе AD.Engram: всё перечисленное ниже лежит в открытом доступе,
+и автор лаунчера платы за это не берёт.
+
+2.1. С источников авторов лаунчер берёт:
+  • NightCityNet (swagtea) — мод ИИ-NPC под GPL-3.0-or-later; в его архиве onnxruntime,
+    LadybugDB, OpenSSL, SQLite, Brotli и модель all-MiniLM-L6-v2 со своими уведомлениями. Мод и
+    адаптер NightCityNet для OSSO автор выкладывает в Discord: архив вы скачиваете сами из его
+    сообщения, лаунчер открывает это сообщение и берёт скачанный файл;
+  • RED4ext, Cyber Engine Tweaks, redscript, Codeware, ArchiveXL, TweakXL, Boneware и Input Loader —
+    расширения игры, на которые опирается мод, — с выпусков авторов на GitHub;
+  • Pleasures of Night City и OSSO — с Nexus Mods, только при включённом «18+»; из OSSO берутся
+    одни звуки, и хранятся они вне папки игры;
+  • Mod Organizer 2 (GPL-3.0) — с GitHub, портативная копия для игры без менеджера модов; если у
+    вас уже есть Mod Organizer 2 или Vortex, лаунчер ставит в вашу сборку и своей копии не заводит;
+  • whisper.cpp (MIT) — программа распознавания речи, с GitHub (ggml-org/whisper.cpp); модели
+    распознавания Whisper (MIT) — с Hugging Face (ggerganov/whisper.cpp);
+  • vgmstream (ISC) — декодер звука игры, с выпуска авторов на GitHub (vgmstream/vgmstream). Им лаунчер
+    читает озвучку вашей копии Cyberpunk 2077 и собирает из неё голоса персонажей для OmniTTS у вас на
+    компьютере; озвучка игры и голоса из неё никуда не выкладываются и принадлежат CD PROJEKT RED;
+  • Ollama (MIT) — с GitHub, если вы выбрали нейросеть на своём компьютере; модели нейросети Ollama
+    скачивает сама из своего каталога, у каждой модели своя лицензия.
+
+2.2. Часть файлов лаунчер берёт с наших зеркал — открытых копий, которые автор лаунчера держит,
+чтобы установка не вставала, когда источник недоступен, режет скорость или упирается в дневной
+лимит: датасет Hugging Face Archidexter/adlindel-assets, выпуск models-v1 на GitHub
+(Archidexter/AD.Lindel) и Google Drive. Там лежат:
+  • OmniTTS — сервер озвучки: jagerius/OmniTTS, модель k2-fsa/OmniVoice (код — Apache-2.0,
+    веса — CC BY-NC) и встроенный Python (лицензия PSF). Этот архив лаунчер берёт только с зеркал;
+  • модели Whisper small, large-v3 и large-v3-turbo (MIT) — копии без изменений, запасной путь,
+    если Hugging Face автора недоступен;
+  • Ollama — неизменённая копия архива разработчика (MIT), запасной путь, если GitHub недоступен.
+
+2.3. Только некоммерческое использование разрешают веса модели OmniVoice (CC BY-NC). Используйте
+её и созданную ею речь для себя, в игре; не продавайте их и не используйте для заработка.
+
+2.4. Правообладателям. Если вы автор материала с наших зеркал и не хотите, чтобы он лежал там, —
+напишите в Issues (https://github.com/Archidexter/AD.Engram/issues) или на Boosty
+(https://boosty.to/ad.tile): копия будет убрана, и лаунчер будет брать файл только с вашего
+источника.
+
+2.5. Правки к NightCityNet. Русский перевод и исправления мода (слой правок, который лаунчер
+накладывает на файлы мода) содержат фрагменты кода NightCityNet и распространяются на условиях
+его лицензии GPL-3.0-or-later. Лаунчер применяет их у вас на компьютере к файлам, скачанным у
+автора мода, и снимает при переключении языка сборки или удалении.
+
+3. Что поставляется вместе с программой
+---------------------------------------
+Внутри самой программы — только наш код, слой правок из 2.5 и три чужие вещи: 7-Zip (7zr.exe,
+LGPL), загрузчик WebView2 (условия Microsoft для распространяемых компонентов) и шрифт JetBrains
+Mono (SIL Open Font License 1.1) — шрифт встроен в программу, его условия лежат в папке
+lib\third-party.
+
+4. Ключи и ответственность
+--------------------------
+Ключи к сервисам ИИ и озвучки (провайдер модели, Inworld) — ваши. Программа хранит их только на
+вашем компьютере и не передаёт никуда, кроме выбранного вами сервиса. Расходы по этим ключам несёте
+вы. Ключ Nexus Mods, если вы его указали, хранится так же и уходит только на Nexus.
+
+Программа предоставляется «как есть», без каких-либо гарантий. Автор не несёт ответственности за
+любой ущерб, прямой или косвенный, связанный с её использованием.
+
+
+ENGLISH
+
+1. The program
+--------------
+This license covers the AD.Engram program (the launcher) and what was written for it: its install
+rules, interface, presets and texts. The patches to NightCityNet files follow the mod's own
+license — see 2.5. The program is distributed by the author on Boosty — by subscription or by
+buying the post.
+
+You may:
+  • use the program if you received it from the author;
+  • keep personal copies of it for yourself, together with this license file.
+
+Without the author's written permission you may NOT:
+  • pass the program on to other people, publish it or distribute it in any other way;
+  • sell the program or charge for access to it;
+  • claim it as your own work;
+  • modify it or distribute modified versions;
+  • use the "AD.Engram" name or look for other products.
+
+2. Third-party materials
+------------------------
+The launcher is an installer. Other authors' mods, programs and models are not part of the
+program: it downloads them onto your machine at install time. This license does not apply to
+them — each stays under its own author's license, and you receive it on those terms. A Boosty
+subscription gives access to the AD.Engram program only: everything listed below is publicly
+available, and the launcher's author charges nothing for it.
+
+2.1. From its authors' own sources the launcher takes:
+  • NightCityNet (swagtea) — the AI NPC mod, under GPL-3.0-or-later; its archive carries
+    onnxruntime, LadybugDB, OpenSSL, SQLite, Brotli and the all-MiniLM-L6-v2 model with their own
+    notices. The author posts the mod and the NightCityNet adapter for OSSO on Discord: you
+    download the archive yourself from the author's message, the launcher opens that message and
+    picks up the downloaded file;
+  • RED4ext, Cyber Engine Tweaks, redscript, Codeware, ArchiveXL, TweakXL, Boneware and Input
+    Loader — the game extensions the mod relies on — from the authors' GitHub releases;
+  • Pleasures of Night City and OSSO — from Nexus Mods, only with "18+" turned on; only the sounds
+    are taken from OSSO, and they are kept outside the game folder;
+  • Mod Organizer 2 (GPL-3.0) — from GitHub, a portable copy for a game without a mod manager; if
+    you already use Mod Organizer 2 or Vortex, the launcher installs into your setup and brings no
+    copy of its own;
+  • whisper.cpp (MIT) — the speech recognition program, from GitHub (ggml-org/whisper.cpp); the
+    Whisper recognition models (MIT) — from Hugging Face (ggerganov/whisper.cpp);
+  • vgmstream (ISC) — the game audio decoder, from the authors' GitHub release (vgmstream/vgmstream). The
+    launcher uses it to read the voice-over of your own copy of Cyberpunk 2077 and build character voices
+    for OmniTTS on your machine; the game's voice-over and the voices built from it are never uploaded
+    anywhere and belong to CD PROJEKT RED;
+  • Ollama (MIT) — from GitHub, if you chose to run the model on your own PC; Ollama downloads the
+    AI models itself from its own library, and each model has its own license.
+
+2.2. Some files come from our mirrors — public copies the launcher's author keeps so the install
+does not stall when a source is down, throttled or hits a daily quota: the Hugging Face dataset
+Archidexter/adlindel-assets, the models-v1 release on GitHub (Archidexter/AD.Lindel) and Google
+Drive. They hold:
+  • OmniTTS — a voice server: jagerius/OmniTTS, the k2-fsa/OmniVoice model (code Apache-2.0,
+    weights CC BY-NC) and an embedded Python (PSF license). The launcher takes this archive from
+    the mirrors only;
+  • the Whisper small, large-v3 and large-v3-turbo models (MIT) — unmodified copies, a fallback
+    when the author's Hugging Face is unreachable;
+  • Ollama — an unmodified copy of the developer's archive (MIT), a fallback when GitHub is
+    unreachable.
+
+2.3. Non-commercial use only: the OmniVoice model weights (CC BY-NC). Use the model and the speech
+it produces for yourself, in the game; do not sell them or use them to make money.
+
+2.4. For rights holders. If you are the author of something on our mirrors and do not want it
+there, write in Issues (https://github.com/Archidexter/AD.Engram/issues) or on Boosty
+(https://boosty.to/ad.tile): the copy will be removed and the launcher will take the file from
+your source only.
+
+2.5. Patches to NightCityNet. The Russian translation and fixes of the mod (the patch layer the
+launcher lays over the mod's files) contain fragments of NightCityNet code and are distributed
+under its license, GPL-3.0-or-later. The launcher applies them on your machine to the files you
+downloaded from the mod's author, and removes them when the build language changes or on
+uninstall.
+
+3. What ships with the program
+------------------------------
+The program itself contains only our code, the patch layer from 2.5 and three third-party things:
+7-Zip (7zr.exe, LGPL), the WebView2 loader (under Microsoft's terms for redistributable components)
+and the JetBrains Mono font (SIL Open Font License 1.1) — the font is embedded in the program, its
+terms are in lib\third-party.
+
+4. Keys and liability
+---------------------
+Your AI and voice service keys (the model provider, Inworld) are yours. The program keeps them on
+your machine only and sends them nowhere except the service you chose. Their cost is yours. A
+Nexus Mods key, if you entered one, is kept the same way and goes to Nexus and nowhere else.
+
+The program is provided "as is", without warranty of any kind. The author is not liable for any
+damage, direct or indirect, arising from its use.
