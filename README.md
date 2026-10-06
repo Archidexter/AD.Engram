@@ -2,6 +2,8 @@
 
 Лаунчер для Cyberpunk 2077: ставит и настраивает мод ИИ-NPC **NightCityNet** со всем, что ему нужно (RED4ext, Cyber Engine Tweaks, redscript, Codeware, ArchiveXL, TweakXL, Boneware), облачную или локальную озвучку, голосовой ввод и русский перевод. Удаляет всё поставленное так же аккуратно, как ставит.
 
+Сайт: [archidexter.ru/engram](https://archidexter.ru/engram/)
+
 ## Установка
 
 1. Скачайте `AD.Engram.zip` на странице автора на **[Boosty](https://boosty.to/ad.tile)** — по подписке или при покупке поста. В этом репозитории архивов программы нет.
@@ -22,5 +24,7 @@ Cyberpunk 2077 из Steam, GOG или Epic. Проверено на версии
 ---
 
 > A launcher for Cyberpunk 2077: installs and configures the **NightCityNet** AI NPC mod with everything it needs (RED4ext, Cyber Engine Tweaks, redscript, Codeware, ArchiveXL, TweakXL, Boneware), a cloud or local voice, voice input and a Russian translation — and removes everything it installed just as cleanly. Download `AD.Engram.zip` from the author's Boosty (https://boosty.to/ad.tile) — there are no program archives in this repository — then right-click → Properties → **Unblock**, unzip, run `AD.Engram.exe`. Self-updating. Tested on game version 2.31.
+>
+> Website: https://archidexter.ru/en/engram/
 >
 > © 2026 Archidexter, all rights reserved. Distributed by the author on Boosty — by subscription or by buying the post; see [LICENSE.txt](LICENSE.txt).
