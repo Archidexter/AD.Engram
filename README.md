@@ -6,7 +6,7 @@
 
 ## Установка
 
-1. Скачайте `AD.Engram.zip` на странице автора на **[Boosty](https://boosty.to/ad.tile)** — по подписке или при покупке поста. В этом репозитории архивов программы нет.
+1. Скачайте `AD.Engram.zip` на странице автора на **[Boosty](https://boosty.to/archidexter)** — по подписке или при покупке поста. В этом репозитории архивов программы нет.
 2. ПКМ по архиву → **Свойства** → внизу поставьте галочку **«Разблокировать»** → **ОК** *(Windows помечает скачанные файлы — это убирает лишние предупреждения системы)*.
 3. Распакуйте в любую папку и запустите **`AD.Engram.exe`**.
 4. Дальше — по подсказкам внутри лаунчера. Архив самого NightCityNet автор мода выкладывает в Discord: лаунчер откроет нужное сообщение и подхватит скачанный файл. Лаунчер обновляется сам.
@@ -23,7 +23,7 @@ Cyberpunk 2077 из Steam, GOG или Epic. Проверено на версии
 
 ---
 
-> A launcher for Cyberpunk 2077: installs and configures the **NightCityNet** AI NPC mod with everything it needs (RED4ext, Cyber Engine Tweaks, redscript, Codeware, ArchiveXL, TweakXL, Boneware), a cloud or local voice, voice input and a Russian translation — and removes everything it installed just as cleanly. Download `AD.Engram.zip` from the author's Boosty (https://boosty.to/ad.tile) — there are no program archives in this repository — then right-click → Properties → **Unblock**, unzip, run `AD.Engram.exe`. Self-updating. Tested on game version 2.31.
+> A launcher for Cyberpunk 2077: installs and configures the **NightCityNet** AI NPC mod with everything it needs (RED4ext, Cyber Engine Tweaks, redscript, Codeware, ArchiveXL, TweakXL, Boneware), a cloud or local voice, voice input and a Russian translation — and removes everything it installed just as cleanly. Download `AD.Engram.zip` from the author's Boosty (https://boosty.to/archidexter) — there are no program archives in this repository — then right-click → Properties → **Unblock**, unzip, run `AD.Engram.exe`. Self-updating. Tested on game version 2.31.
 >
 > Website: https://archidexter.ru/en/engram/
 >
