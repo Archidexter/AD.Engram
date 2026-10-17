@@ -82,7 +82,7 @@ Boosty даёт доступ только к программе AD.Engram: вс�
 
 2.4. Правообладателям. Если вы автор материала с наших зеркал и не хотите, чтобы он лежал там, —
 напишите в Issues (https://github.com/Archidexter/AD.Engram/issues) или на Boosty
-(https://boosty.to/ad.tile): копия будет убрана, и лаунчер будет брать файл только с вашего
+(https://boosty.to/archidexter): копия будет убрана, и лаунчер будет брать файл только с вашего
 источника.
 
 2.5. Правки к NightCityNet. Русский перевод и исправления мода (слой правок, который лаунчер
@@ -174,7 +174,7 @@ it produces for yourself, in the game; do not sell them or use them to make mone
 
 2.4. For rights holders. If you are the author of something on our mirrors and do not want it
 there, write in Issues (https://github.com/Archidexter/AD.Engram/issues) or on Boosty
-(https://boosty.to/ad.tile): the copy will be removed and the launcher will take the file from
+(https://boosty.to/archidexter): the copy will be removed and the launcher will take the file from
 your source only.
 
 2.5. Patches to NightCityNet. The Russian translation and fixes of the mod (the patch layer the
